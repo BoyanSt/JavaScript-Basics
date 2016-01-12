@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<script>
+    function getTime() {
+        var now = new Date();
+        var hours = now.getHours().toString(),
+                minutes = now.getMinutes().toString(),
+                seconds = now.getSeconds().toString();
+        hours = addFrontZero(hours);
+        minutes = addFrontZero(minutes);
+        seconds = addFrontZero(seconds);
+        document.getElementById('curr-time').innerHTML = hours + " : " + minutes + " : " + seconds;
+    }
+
+    function addFrontZero(e){
+        if(e.length==1){
+            return '0'+e;
+        } else {
+            return e;
+        }
+    }
+
+    setInterval(getTime, 100);
+</script>
+
+<h3>The current time is:</h3>
+<p id='curr-time'></p>
+</body>
+</html>

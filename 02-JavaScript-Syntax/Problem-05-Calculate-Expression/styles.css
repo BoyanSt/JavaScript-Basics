@@ -1,0 +1,33 @@
+p,input,#wrapper{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 350px;
+    height: 180px;
+}
+
+input, p {
+    width: 350px;
+    text-align: center;
+    background-color: rgb(37,67,101);
+    color: rgb(196,146,73);
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+}
+
+p{
+    font-size: 28px;
+}
+
+#calcButton{
+    width: 150px;
+    height: 18px;
+    margin: 15px auto 18px auto;
+}
+
+button{
+    width: 150px;
+}

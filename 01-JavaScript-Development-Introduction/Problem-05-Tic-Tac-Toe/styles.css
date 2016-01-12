@@ -1,0 +1,32 @@
+
+table {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table tr td {
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid #339933;
+    border-bottom: 2px solid #339933;
+    text-align: center;
+    line-height: 100px;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #333300;
+}
+
+table tr td:hover {
+    cursor: pointer;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
