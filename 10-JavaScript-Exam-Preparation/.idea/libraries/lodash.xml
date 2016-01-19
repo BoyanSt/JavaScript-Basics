@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lodash" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/2014-07-28 JavaScript Basics/01-Double-Rakiya-Numbers.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/2014-07-28 JavaScript Basics/01-Double-Rakiya-Numbers.js" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="https://raw.githubusercontent.com/lodash/lodash/4.0.0/dist/lodash.js" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>
